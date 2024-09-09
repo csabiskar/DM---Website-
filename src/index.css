@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.text-stroke {
+    -webkit-text-stroke: 2px #F97316; /* Stroke size and color */
+    color: transparent; /* This makes the text itself transparent to only show the stroke */
+  }
+
+  .pacifico-regular {
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }  
+body{
+/* In global CSS file (e.g. index.css or App.css) */
+cursor: url('./assets/cursor.png'), auto;
+  }
+
+  .heroTextsize {
+    font-family: "Sohne Halbfett";
+  }
+
+  
